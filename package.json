@@ -1,0 +1,27 @@
+{
+  "name": "gouv-widgets",
+  "version": "0.2.5",
+  "description": "Bibliothèque de Web Components de dataviz pour sites gouvernementaux",
+  "main": "dist/gouv-widgets.umd.js",
+  "module": "dist/gouv-widgets.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "web-components",
+    "dsfr",
+    "dataviz",
+    "gouvernement",
+    "lit"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@gouvfr/dsfr-chart": "^2.0.4",
+    "lit": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmatge/gouv-widgets"
+  }
+}
